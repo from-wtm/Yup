@@ -8,6 +8,7 @@ installer -pkg /Users/Shared/watchman.pkg -target /
 #install atera
 bash /Users/Shared/atera.sh
 installer -pkg /Uses/Shared/atera.pkg -target /
+rm -r /Users/Shared/atera.pkg
 #install bitdefender
 
 #mount the dmg
