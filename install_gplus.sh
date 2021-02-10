@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#random comment
 #install GPLUS
 cd /Users/Shared/
 #install watchman
