@@ -1,12 +1,11 @@
 #!/bin/bash
 
 #install GPLUS
-
+cd /Users/Shared/
 #install watchman
 installer -pkg /Users/Shared/watchman.pkg -target /
 
 #install atera
-cd /Users/Shared/
 chmod +x atera.sh
 installer -pkg /Uses/Shared/atera.pkg -target /
 bash /Users/Shared/atera.sh
