@@ -23,9 +23,9 @@ hdiutil detach /Volumes/Bitdefender\ for\ MAC/
 #exit cleanly no matter what
 #remove the things
 
-rm -r /Users/Shared/atera.pkg
-rm AgentInstaller.pkg
-rm munkitools*
-rm bitdefender.dmg
+#rm -r /Users/Shared/atera.pkg
+##rm AgentInstaller.pkg
+#rm munkitools*
+#rm bitdefender.dmg
 #somethingsomething
 exit 0
