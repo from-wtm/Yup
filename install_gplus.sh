@@ -15,7 +15,7 @@ bash /Users/Shared/atera.sh
 #mount the dmg
 hdiutil attach /Users/Shared/bitdefender.dmg
 #install the stuff
-installer -pkg /Volumes/Bitdefender\ for\ MAC/antivirus_for_mac.pkg -target /
+installer -pkg /Volumes/Bitdefender\ for\ MAC/antivirus_for*.pkg -target /
 #detach the dmg
 hdiutil detach /Volumes/Bitdefender\ for\ MAC/
 #exit cleanly no matter what
