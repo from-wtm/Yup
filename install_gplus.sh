@@ -11,6 +11,7 @@ installer -pkg /Uses/Shared/atera.pkg -target /
 bash /Users/Shared/atera.sh
 
 #install bitdefender
+sleep 20
 
 #mount the dmg
 hdiutil attach /Users/Shared/bitdefender.dmg
