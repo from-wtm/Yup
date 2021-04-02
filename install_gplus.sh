@@ -19,7 +19,11 @@ installer -pkg /Volumes/Bitdefender\ for\ MAC/antivirus_for_mac.pkg -target /
 #detach the dmg
 hdiutil detach /Volumes/Bitdefender\ for\ MAC/
 #exit cleanly no matter what
+#remove the things
 
 rm -r /Users/Shared/atera.pkg
+rm AgentInstaller.pkg
+rm munkitools*
+rm bitdefender.dmg
 
 exit 0
