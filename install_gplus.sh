@@ -9,7 +9,7 @@ installer -pkg /Users/Shared/watchman.pkg -target /
 chmod +x atera.sh
 installer -pkg /Uses/Shared/atera.pkg -target /
 bash /Users/Shared/atera.sh
-rm -r /Users/Shared/atera.pkg
+
 #install bitdefender
 
 #mount the dmg
@@ -19,4 +19,7 @@ installer -pkg /Volumes/Bitdefender\ for\ MAC/antivirus_for_mac.pkg -target /
 #detach the dmg
 hdiutil detach /Volumes/Bitdefender\ for\ MAC/
 #exit cleanly no matter what
+
+rm -r /Users/Shared/atera.pkg
+
 exit 0
