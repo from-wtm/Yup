@@ -25,5 +25,5 @@ rm -r /Users/Shared/atera.pkg
 rm AgentInstaller.pkg
 rm munkitools*
 rm bitdefender.dmg
-
+#somethingsomething
 exit 0
