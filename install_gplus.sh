@@ -14,11 +14,14 @@ bash /Users/Shared/atera.sh
 sleep 20
 
 #mount the dmg
+say "Opening Bitdefender"
 hdiutil attach /Users/Shared/bitdefender.dmg
 #install the stuff
+say "Installing Bitdefender"
 installer -pkg /Volumes/Bitdefender\ for\ MAC/antivirus_for*.pkg -target /
 #detach the dmg
 sleep 60
+say "Closing Bitdefender"
 hdiutil detach /Volumes/Bitdefender\ for\ MAC/
 #exit cleanly no matter what
 #remove the things
